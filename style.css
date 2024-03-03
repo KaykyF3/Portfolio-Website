@@ -14,6 +14,8 @@
     --bg-color: #1b1f24;
     --second-bg-color: #22282f;
     --main-color: #cb7339;
+    /*--main-color: #1B96D3;*/
+
     --other-color: #c3cad5;
 
     --h1-font: 4.5rem;
@@ -332,7 +334,7 @@ section {
     height: 55px;
     font-size: 27px;
     color: var(--text-color);
-    background: var(--text-color);
+    background: #161616;
     border-radius: 50%;
 }
 
@@ -424,7 +426,7 @@ form .send-btn:hover {
 }
 
 .scroll-top i {
-    background: #075fe4;
+    background: var(--main-color);
     width: 45px;
     color: white;
     height: 45px;
